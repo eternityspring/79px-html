@@ -1,0 +1,161 @@
+/*
+author:wesley;
+email:eternity#163.com   I think you can understand!
+*/
+
+body{font-family:microsoft yahei,sans-serif,arial;}
+h1 {
+  font-size: 26px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 20px;
+  line-height: 1.2;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+p{
+  line-height:1.8;
+}
+a {
+  color:#1abc9c;
+}
+a:hover {
+  color:#2E9782;
+}
+blockquote {
+  font-size: 12px;
+  color: #666;
+}
+pre{
+  color: #bcbcbc;
+  background:#2F2F2F;
+}
+.border-bottom{
+  border-bottom:1px solid #dbdbdb;
+}
+.navbar-inverse .navbar-brand{
+	color: #E0E0E0;
+	display: block;
+}
+.navbar-inverse .navbar-brand:hover{
+	color: #f8f8f8;
+	text-shadow: 1px 1px 3px #C7A5A5;
+	animation: logoanimation 3s ease-in-out infinite alternate;
+	-moz-animation: logoanimation 3s ease-in-out infinite alternate;	/* Firefox */
+	-webkit-animation: logoanimation 3s ease-in-out infinite alternate;	/* Safari 和 Chrome */
+	-o-animation: logoanimation 3s ease-in-out infinite alternate;
+}
+										/*define animate*/
+@keyframes logoanimation
+{
+from {
+	transform: rotateY(360deg);
+}
+to {
+	transform: rotateY(0);
+}
+}
+
+@-moz-keyframes logoanimation /* Firefox */
+{
+from {
+	transform: rotateY(360deg);
+}
+to {
+	transform: rotateY(0);
+}
+}
+
+@-webkit-keyframes logoanimation /* Safari 和 Chrome */
+{
+from {
+	transform: rotateY(360deg);
+}
+to {
+	transform: rotateY(0);
+}
+}
+
+@-o-keyframes logoanimation /* Opera */
+{
+from {
+	transform: rotateY(360deg);
+}
+to {
+	transform: rotateY(0);
+}
+}
+
+@keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: 0% 500%; }
+}
+@-moz-keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: 0% 500%; }
+}
+@-webkit-keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: 0% 500%; }
+}
+@-o-keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: 0% 500%; }
+}
+
+@keyframes animatedADfont {
+  from { text-shadow: none; }
+  to { text-shadow: 1px 1px 7px #8D8D8D; }
+}
+@-moz-keyframes animatedADfont {
+  from { text-shadow: none; }
+  to { text-shadow: 1px 1px 7px #8D8D8D; }
+}
+@-webkit-keyframes animatedADfont {
+  from { text-shadow: none; }
+  to { text-shadow: 1px 1px 7px #8D8D8D; }
+}
+@-o-keyframes animatedADfont {
+  from { text-shadow: none; }
+  to { text-shadow: 1px 1px 7px #8D8D8D; }
+}
+/*add ad font style*/
+#block-block-2{
+		animation: animatedADfont 2s infinite alternate;
+	-moz-animation: animatedADfont 2s infinite alternate;
+	-webkit-animation: animatedADfont 2s infinite alternate;
+	-o-animation: animatedADfont 2s infinite alternate;
+}
+/*for rewrite the css */
+#comments p{
+  margin-bottom:0;
+}
+.comment-form .form-item-subject, .comment-form  .fieldset-wrapper{
+  display:none;
+}
+.item-list .pagination{
+  margin-top: 35px;
+}
+/*for notice for ie*/
+ul.browser{
+	width:500px;
+	height:60px;
+	background-image:url(../images/browser.png);
+	margin:0 auto;
+	margin-left:220px;
+}
+ul.browser li{
+	width:60px;
+	height:60px;
+	margin:0 20px;
+	cursor:pointer;
+	overflow:hidden;
+	float:left;
+}
+.s-list .content h1, 
+.s-list .content h2, 
+.s-list .content h3, 
+.s-list .content h4{
+	color: #1abc9c;
+}
