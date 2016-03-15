@@ -1,7 +1,7 @@
 如果你看到这个页你可以关注下{79px}
 ====
 
-可以直接在这里看Demo：http://79px.com
+可以直接在这里看Demo：http://htmlpreview.github.io/?https://github.com/eternityspring/79px/blob/master/index.html
 
 这里的东西是{79px}的静态框架。终于花时间整理了一下。大家可以自己下载学习和使用这里的代码和设计。
 接下来我会专心的整理基于这里静态页的Drupal模版。然后开始着手下一次的改版。因为我打算每年改版一次，一年就那么任性的折腾自己一次。
